@@ -16,28 +16,27 @@ body {
 header{
     display: flex;
     background-color: #2a3483;
-    margin: 16px 0px;
     padding: 16px;
 }
 
 header img{
     border-radius: 50%;
-    width: 100px;
-    margin: auto;
+    width: 50px;
+    height: 50px;
+    margin: auto 8px;
 }
 
 header h1{
     color: white;
-    font-size: 48px;
-    margin: auto;
-    font-weight:bold;
+    font-size: 24px;
+    font-weight: bold;
+    margin: auto 8px;
 }
 
 footer{
     text-align: center;
     background-color: #f2f2f2;
     padding: 16px;
-    margin-top: 32px;
 }
 
 #modifiedNotice{
@@ -45,14 +44,11 @@ footer{
 }
 
 .linkList{
-    margin: 16px 0px;
+    margin: 0px 16px;
 }
 
 .linkList ul{
     padding-left: 40px;
-    border-color: gray;
-    border-style: solid;
-    border-width: 1px 0px;
 }
 
 .linkList ul li{
@@ -65,4 +61,9 @@ footer{
 
 h2{
     font-size: x-large;
+    padding: 16px;
+}
+
+.notice{
+    padding: 16px;
 }

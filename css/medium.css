@@ -1,0 +1,17 @@
+@media screen and (min-width: 32.5em){
+    header{
+        margin: 16px 0px;
+        align-content: center;
+    }
+
+    header img{
+        width: 100px;
+        height: 100px;
+        margin: auto;
+    }
+
+    header h1{
+        font-size: 48px;
+        margin: auto;
+    }
+}
