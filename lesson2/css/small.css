@@ -26,6 +26,7 @@ header h2{
 main section{
     margin: 8px;
     padding: 8px;
+    background-color: whitesmoke;
 }
 
 main section *{
@@ -44,4 +45,12 @@ footer{
     text-align: center;
     background-color: #f2f2f2;
     padding: 16px;
+}
+
+.italics{
+    font-style: italic;
+}
+
+.smallText{
+    font-size: x-small;
 }
