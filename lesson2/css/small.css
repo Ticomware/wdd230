@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: medium;
+}
+
+html{
+    font-family: 'Ubuntu', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    background-color: #2a3483;
+    padding: 16px;
+    color: white;
+    text-align: center;
+}
+
+header h1{
+    font-size: xx-large;
+}
+
+header h2{
+    font-size: x-large;
+}
+
+main section{
+    margin: 8px;
+    padding: 8px;
+}
+
+main section *{
+    margin: 8px 0px;
+}
+
+main section h3{
+    font-size: larger;
+}
+
+main section img{
+    width: 100%;
+}
+
+footer{
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 16px;
+}

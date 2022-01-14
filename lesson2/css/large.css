@@ -1,0 +1,10 @@
+@media screen and (min-width: 45em){
+    main{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section:last-child{
+        grid-column: auto;
+    }
+}
