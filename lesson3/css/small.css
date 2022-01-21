@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+    text-align: center;
+    background-color: skyblue;
+    display: flex;
+    color: white;
+    height: 80px;
+}
+
+header a, header a:link, header a:visited, header a:hover, header a:active{
+    color: inherit;
+    text-decoration: none; 
+}
+
+header h1{
+    font-family: Garamond, "Baskerville", "Baskerville Old Face", "Hoefler Text", "Times New Roman", serif;
+    text-transform: uppercase;
+}
+
+header ul{
+    display: flex;
+    list-style-type: none;
+    margin: auto 0px;
+    float: right;
+}
+
+header ul li{
+    margin: auto;
+    padding: 0px 16px;
+}
+
+section{
+    margin: 24px 16px;
+}
+
+section p{
+    margin-left: 24px;
+}
+
+footer{
+    text-align: center;
+}
