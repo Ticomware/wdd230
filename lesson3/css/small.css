@@ -90,10 +90,6 @@ aside table{
     width: 100%;
 }
 
-.header-logo-link{
-    display: flex;
-}
-
 .accent-color-swatch{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
