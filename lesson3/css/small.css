@@ -59,12 +59,20 @@ section{
     text-align: center;
 }
 
-section p{
+section p, section ul{
     margin: 8px 0px;
 }
 
 section ul{
     margin-left: 24px;
+}
+
+ul{
+    list-style: none;
+}
+
+ul li{
+    margin: 8px;
 }
 
 img{
