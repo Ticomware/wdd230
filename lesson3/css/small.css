@@ -90,6 +90,10 @@ aside table{
     width: 100%;
 }
 
+.header-logo-link{
+    display: flex;
+}
+
 .accent-color-table{
     color: white;
     text-align: center;
