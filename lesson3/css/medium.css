@@ -31,13 +31,13 @@
         text-align: start;
     }
 
-    .accent-color-table tr td{
+    .accent-color-swatch p{
         padding: 72px 0px;
         margin: 0px;
         user-select: all;
     }
 
-    .accent-color-table{
+    .accent-color-swatch{
         font-size: 18px;
     }
 }

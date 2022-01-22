@@ -94,7 +94,9 @@ aside table{
     display: flex;
 }
 
-.accent-color-table{
+.accent-color-swatch{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     color: black;
     text-align: center;
     border-radius: 5px;
@@ -105,30 +107,30 @@ aside table{
     user-select: none;
 }
 
-.accent-color-table tr td{
+.accent-color-swatch p{
     padding: 24px 0px;
     margin: 0px;
 }
 
-.accent-color-table tr td:nth-child(1){
+.accent-color-swatch p:nth-child(1){
     background-color: var(--accent-color-1);
     border-top-left-radius: var(--border-radius-amount);
     border-bottom-left-radius: var(--border-radius-amount);
 }
 
-.accent-color-table tr td:nth-child(2){
+.accent-color-swatch p:nth-child(2){
     background-color: var(--accent-color-2);
 }
 
-.accent-color-table tr td:nth-child(3){
+.accent-color-swatch p:nth-child(3){
     background-color: var(--accent-color-3);
 }
 
-.accent-color-table tr td:nth-child(4){
+.accent-color-swatch p:nth-child(4){
     background-color: var(--accent-color-4);
 }
 
-.accent-color-table tr td:nth-child(5){
+.accent-color-swatch p:nth-child(5){
     background-color: var(--accent-color-5);
     border-top-right-radius: var(--border-radius-amount);
     border-bottom-right-radius: var(--border-radius-amount);
