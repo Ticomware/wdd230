@@ -1,10 +1,10 @@
 @media screen and (min-width: 32.5em){
-    header{
+    header nav{
         text-align: center;
         display: flex;
         height: 80px;
     }
-    
+
     .header-logo-link{
         display: flex;
     }
