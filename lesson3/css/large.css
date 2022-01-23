@@ -6,4 +6,8 @@
     .accent-color-swatch{
         font-size: 24px;
     }
+
+    main{
+        padding: 24px 48px;
+    }
 }
