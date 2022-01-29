@@ -10,4 +10,8 @@
     main{
         padding: 24px 48px;
     }
+
+    footer{
+        font-size: 16px;
+    }
 }
