@@ -75,6 +75,11 @@ section{
     display: none;
 }
 
+.socialMediaLink{
+    max-height: 24px;
+    margin: 0px;
+}
+
 section p, section ul{
     margin: 8px 0px;
 }
