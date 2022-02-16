@@ -23,3 +23,5 @@ if('IntersectionObserver' in window) {
       loadImages(img);
     });
   }
+
+  document.getElementById("modifiedNotice").innerHTML = `Last Updated: ${new Date(document.lastModified).toLocaleString()}`;
