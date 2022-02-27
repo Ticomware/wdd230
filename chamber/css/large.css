@@ -11,7 +11,7 @@
         font-size: 24px;
     }
 
-    main{
+    .homeMain{
         padding: 24px 48px;
         grid-template: repeat(3, 1fr) / repeat(4, 1fr)
     }

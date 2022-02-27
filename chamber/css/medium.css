@@ -42,7 +42,7 @@
         text-align: start;
     }
 
-    main{
+    .homeMain{
         padding: 12px 24px;
         display: grid;
         grid-template: repeat(5, 1fr) / 2fr 1fr
