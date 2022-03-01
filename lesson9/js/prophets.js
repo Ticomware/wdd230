@@ -1,4 +1,5 @@
 const requestURL = 'https://byui-cit230.github.io/lessons/lesson-09/data/latter-day-prophets.json';
+document.getElementById("modifiedNotice").innerHTML = `Last Updated: ${new Date(document.lastModified).toLocaleString()}`;
 
 fetch(requestURL)
   .then(function (response) {
@@ -56,3 +57,4 @@ function getOrdinalEnding(number){
         return "th";
     }
 }
+
