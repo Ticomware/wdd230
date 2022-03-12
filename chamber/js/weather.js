@@ -10,8 +10,6 @@ fetch(apiURL)
     document.getElementById("spanWindChill").innerText = determineWindChill(parseFloat(jsObject["main"].temp), parseFloat(jsObject["wind"].speed));
   });
 
-  //spanWindChill.innerHTML = 
-
 function determineWindChill(avgTemp, windSpeed)
 {
     if (avgTemp <= 50 && windSpeed > 3)
