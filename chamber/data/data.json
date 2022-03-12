@@ -1,0 +1,137 @@
+{
+    "businesses": [
+        {
+            "title": "Albertson's",
+            "logo": "https://www.albertsons.com/content/dam/safeway/images/logos/Albertsons_RGB.svg",
+            "address": "490 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-356-0555",
+            "website": "http://www.albertsons.com/pd/stores/ID/Rexburg/Rexburg/DE4A73451"
+        },
+        {
+            "title": "Alpine Jewelers",
+            "logo": "https://www.alpinejewelers.com/images/logo.png",
+            "address": "7 W Main Street, Rexburg, ID 83440",
+            "phone": "208-359-9776",
+            "website": "http://shopalpinejewelers.com"
+        },
+        {
+            "title": "Big 5 Sporting Goods",
+            "logo": "https://www.big5sportinggoods.com/maint/images/big5-logo.png",
+            "address": "650 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-656-8813",
+            "website": "http://www.big5sportinggoods.com/maint/index.html"
+        },
+        {
+            "title": "Broulim's Fresh Food",
+            "logo": "https://idahofallschamber.com/wp-content/uploads/2019/10/Broulims-fresh-foods-Stacked-Logo.png",
+            "address": "124 W Main St, Rexburg, ID 83440",
+            "phone": "208-356-4651",
+            "website": "https://broulims.com/"
+        },
+        {
+            "title": "BYU-Idaho University Store",
+            "logo": "https://www.byuistore.com/Images/University%20Store%20Logo%20-%20White.png",
+            "address": "525 S Center St, Rexburg, ID 83460",
+            "phone": "208-496-2211",
+            "website": "https://www.byuistore.com/"
+        },
+        {
+            "title": "Circle of Love/ Millennial Men",
+            "logo": "https://www.mycircleoflove.com/wp-content/uploads/2020/09/Circle-of-Love-Mobile-Logo.png",
+            "address": "64 E Main St, Rexburg, ID 83440",
+            "phone": "208-356-0058",
+            "website": "http://www.mycircleoflove.com/"
+        },
+        {
+            "title": "Desert Industries",
+            "logo": "https://www.deseretindustries.org/static/logo.svg",
+            "address": "611 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-356-0066",
+            "website": "https://www.deseretindustries.org/"
+        },
+        {
+            "title": "Freeman Clothing",
+            "logo": "https://cdn.shopify.com/s/files/1/0043/6404/2310/files/Logo_1_360x.png?v=1605202488",
+            "address": "160 W 2nd S #104, Rexburg, ID 83440",
+            "phone": "208-359-2871",
+            "website": "http://freemanclothing.com"
+        },
+        {
+            "title": "Hemming Village",
+            "logo": "https://hemmingvillage.com/wp-content/uploads/2021/09/cedars-2.png",
+            "address": "160 W 2nd S, Rexburg, ID 83440",
+            "phone": "208-356-6142",
+            "website": "http://hemmingvillage.com/"
+        },
+        {
+            "title": "Kaiback Outfitters",
+            "logo": "https://cdn11.bigcommerce.com/s-20sj52/images/stencil/original/kaiback-logo-amazonbrand_1632848480__36004.original.png",
+            "address": "573 Business Loop, Sugar City, ID 83448",
+            "phone": "208-541-4049",
+            "website": "https://kaiback.com/"
+        },
+        {
+            "title": "Meat and Potatoes",
+            "logo": "https://wilcoxmeatpotatoes.com/wp-content/uploads/2021/11/logo-stamp-dark.png",
+            "address": "1110 Golden Beauty Dr., Rexburg, ID 83440",
+            "phone": "208-227-5150",
+            "website": "https://wilcoxmeatpotatoes.com/"
+        },
+        {
+            "title": "Nature's Nook",
+            "logo": "https://naturesnook.co/wp-content/uploads/2016/05/NaturesNook-e1464385617815.png",
+            "address": "160 E Valley River Rd, Rexburg, ID 83440",
+            "phone": "208-356-5284",
+            "website": "http://naturesnook.co/"
+        },
+        {
+            "title": "Paparazzi Accessories",
+            "logo": "https://paparazziaccessories.com/media/static/site/images/logo-crown-left-black.svg?ff46ab620614",
+            "address": "3389 S 2000 W, Rexburg, ID 83440",
+            "phone": "208-208-5284",
+            "website": "https://paparazziaccessories.com/1852/"
+        },
+        {
+            "title": "Porter's Office Products",
+            "logo": "https://www.portersop.com/wp-content/themes/porters/img/mainLogo.png",
+            "address": "1050 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-356-4616",
+            "website": "http://www.portersop.com/"
+        },
+        {
+            "title": "Rexburg Farmers Market",
+            "logo": "http://www.rexburgfarmersmarket.org/wp-content/uploads/2016/03/cropped-cropped-rfmwebsiteheader.gif",
+            "address": "Center St. Between 1st S and 2nd S., Rexburg, ID 83440",
+            "phone": "208-206-4918",
+            "website": "http://www.rexburgfarmersmarket.org/"
+        },
+        {
+            "title": "Rexburg Motor Sports",
+            "logo": "https://www.rexburgmotorsports.com/portals/rexburgmotorsports/skins/rexburgmotorsports-wildriversport-mudslide/images/logo_rexburg.png",
+            "address": "1178 University Blvd, Rexburg, ID 83440",
+            "phone": "208-356-4000",
+            "website": "http://www.gearhead.com/"
+        },
+        {
+            "title": "Usborne Books & More",
+            "logo": "https://u4350.myubam.com/Themes/UBAM/Content/images/ubam_store_logo.png",
+            "address": "3883 E 12 N Rigby, ID 83440",
+            "phone": "208-589-9924",
+            "website": "https://www.u4350.myubam.com"
+        },
+        {
+            "title": "Valley Wide Co-Op",
+            "logo": "https://www.valleywidecoop.com/wp-content/uploads/2021/01/mobile.png",
+            "address": "1175 W Main St, Rexburg, ID 83440",
+            "phone": "208-356-5448",
+            "website": "https://www.valleywidecoop.com/"
+        },
+        {
+            "title": "Walmart Stores Inc.",
+            "logo": "https://i5.walmartimages.com/dfw/63fd9f59-b3e1/7a569e53-f29a-4c3d-bfaf-6f7a158bfadd/v1/walmartLogo.svg",
+            "address": "1450 N 2nd E, Rexburg, ID 83440",
+            "phone": "208-359-2809",
+            "website": "http://www.walmart.com/store/1878-rexburg-id"
+        }
+    ]
+}
