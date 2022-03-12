@@ -62,7 +62,7 @@ button, .buttonLink{
     text-transform: uppercase;
     display: inline-block;
     margin: 16px;
-    color: white;
+    color: black;
     text-decoration: none;
     background-color: var(--accent-color-4);
     border: none;
