@@ -87,9 +87,31 @@
         text-align: center;
     }
 
-    #directorySection{
+    .directoryCardView{
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+
     
+
+    .directoryListView section a p{
+        display: inherit;
+    }
+
+    .directoryListView section{
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr 1fr;
+    }
+
+    .directoryListView section:nth-child(1) {
+        display: grid;
+    }
+
+    .directoryListView section a i{
+        display: none;
+    }
+
+    .directoryListView section a p{
+        display: inherit;
+    }
 }

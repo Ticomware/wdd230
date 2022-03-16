@@ -32,7 +32,18 @@
         </header>
         <main>
             <h1 class="center">Business Directory</h1>
-            <div id="directorySection"></div>
+            <div id="viewButtonContainer">
+                <button id="listViewButton" onclick="listView()"><i class="fa-solid fa-list"></i></button>
+                <button id="cardViewButton" onclick="cardView()" class="notSelected"><i class="fa-solid fa-grip"></i></button>
+            </div>
+            <div id="directorySection" class="directoryListView">
+                <section>
+                    <h3>Business Name</h3>
+                    <h3>Address</h3>
+                    <h3>Phone</h3>
+                    <h3>Website</h3>
+                </section>
+            </div>
         </main>
         <footer>
             <img src="images/logo.svg" alt="Rexburg Chamber of Commerce Logo">
@@ -43,5 +54,6 @@
         </footer>
         <script src="js/main.js"></script>
         <script src="js/directory.js"></script>
+        <script src="https://kit.fontawesome.com/50ea08db56.js" crossorigin="anonymous"></script>
     </body>
 </html>

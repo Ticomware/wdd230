@@ -242,22 +242,84 @@ footer img{
     text-align: center;
 }
 
-#directorySection{
+.directoryCardView{
     margin: 8px;
 }
 
-#directorySection section{
+.directoryCardView section{
     margin: 8px;
     max-width: 100%;
+    border-radius: var(--border-radius-amount);
 }
 
-#directorySection a, #directorySection h3{
+.directoryCardView a{
     display: block;
+    margin: 8px;
+    text-decoration: none;
+}
+
+.directoryCardView h3{
     margin: 8px;
 }
 
-#directorySection section img{
+.directoryCardView section img{
     max-height: 50px;
     max-width: 80%;
     margin: 8px;
+}
+
+.directoryCardView section a p{
+    display: none;
+}
+
+.directoryCardView section a{
+    display: inline-flex;
+    font-size: 24px;
+    padding: 8px;
+}
+
+.directoryListView section img{
+    display: none;
+}
+
+.directoryListView section{
+    display: grid;
+    grid-template-columns: 5fr 1fr 1fr 1fr;
+}
+
+.directoryListView section:nth-child(odd) {
+    background-color: whitesmoke;
+}
+
+.directoryListView section:nth-child(1) {
+    display: none;
+}
+
+.directoryListView section a p{
+    display: none;
+}
+
+.directoryListView section h3, .directoryListView section a{
+    margin: auto;
+}
+
+.directoryListView section a{
+    text-decoration: none;
+}
+
+.directoryCardView section:nth-child(1) {
+    display: none;
+}
+
+.notSelected{
+    background-color: lightgray;
+}
+
+#viewButtonContainer{
+    text-align: center;
+}
+
+#viewButtonContainer button{
+    width: 50px;
+    height: 50px;
 }
