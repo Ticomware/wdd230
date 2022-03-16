@@ -52,4 +52,9 @@
     #menuButton{
         display: none;
     }
+
+    #directorySection{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }

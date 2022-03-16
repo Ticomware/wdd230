@@ -237,3 +237,27 @@ footer img{
 #weatherSection img{
     height: 100px;
 }
+
+.center{
+    text-align: center;
+}
+
+#directorySection{
+    margin: 8px;
+}
+
+#directorySection section{
+    margin: 8px;
+    max-width: 100%;
+}
+
+#directorySection a, #directorySection h3{
+    display: block;
+    margin: 8px;
+}
+
+#directorySection section img{
+    max-height: 50px;
+    max-width: 80%;
+    margin: 8px;
+}
