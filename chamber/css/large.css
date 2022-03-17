@@ -31,7 +31,7 @@
         grid-column: 2 / 4;
     }
 
-    .spotlightSection{
+    #spotlightSection{
         grid-row: 1 / 4;
         grid-column: 4 / 5;
     }
@@ -56,5 +56,19 @@
     .directoryCardView{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #spotlightSection section a{
+        font-size: medium;
+        padding: 0px;
+        display: block;
+    }
+
+    #spotlightSection section a i{
+        display: none;
+    }
+
+    #spotlightSection section a p{
+        display: inherit;
     }
 }

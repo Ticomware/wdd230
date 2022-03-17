@@ -30,7 +30,7 @@
         },
         {
             "title": "BYU-Idaho University Store",
-            "logo": "https://www.byuistore.com/Images/University%20Store%20Logo%20-%20White.png",
+            "logo": "images/byui-uni-store.svg",
             "address": "525 S Center St, Rexburg, ID 83460",
             "phone": "208-496-2211",
             "website": "https://www.byuistore.com/"
@@ -79,7 +79,7 @@
         },
         {
             "title": "Nature's Nook",
-            "logo": "https://naturesnook.co/wp-content/uploads/2016/05/NaturesNook-e1464385617815.png",
+            "logo": "images/NaturesNook.png",
             "address": "160 E Valley River Rd, Rexburg, ID 83440",
             "phone": "208-356-5284",
             "website": "http://naturesnook.co/"

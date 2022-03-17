@@ -204,10 +204,6 @@ footer img{
     text-align: center;
 }
 
-.joinMain h2{
-    margin: 16px;
-}
-
 #joinForm fieldset label{
     display: block;
     margin: 8px;
@@ -240,10 +236,11 @@ footer img{
 
 .center{
     text-align: center;
+    padding: 16px;
 }
 
 .directoryCardView{
-    margin: 8px;
+    margin: 24px;
 }
 
 .directoryCardView section{
@@ -252,7 +249,7 @@ footer img{
     border-radius: var(--border-radius-amount);
 }
 
-.directoryCardView a{
+.directoryCardView a, #spotlightSection a{
     display: block;
     margin: 8px;
     text-decoration: none;
@@ -262,17 +259,17 @@ footer img{
     margin: 8px;
 }
 
-.directoryCardView section img{
+.directoryCardView section img, #spotlightSection section img{
     max-height: 50px;
     max-width: 80%;
     margin: 8px;
 }
 
-.directoryCardView section a p{
+.directoryCardView section a p, #spotlightSection section a p{
     display: none;
 }
 
-.directoryCardView section a{
+.directoryCardView section a, #spotlightSection section a{
     display: inline-flex;
     font-size: 24px;
     padding: 8px;
@@ -326,4 +323,17 @@ footer img{
 
 h2.center{
     padding: 24px;
+}
+
+#discoverImageSection{
+    margin: 8px;
+    text-align: center;
+}
+
+#discoverImageSection img{
+    margin: 8px;
+}
+
+#spotlightSection section:nth-child(3){
+    display: none;
 }
