@@ -31,7 +31,7 @@
             <p id="dateDisplay"></p>
         </header>
         <main class="joinMain">
-            <h2 class="center">Join</h2>
+            <h2 class="center colSpan2">Join</h2>
             <form method="get" action="thankyou.html" id="joinForm">
                 <fieldset>
                     <label>First Name* <input type="text" name="fname" required></label>
@@ -43,7 +43,7 @@
                 </fieldset>
 
                 <fieldset>
-                    <legend>Membership</legend>
+                    <legend><h3>Membership</h3></legend>
                     <label><input name="membershipLevel" type="radio" value="NP Membership">NP Membership</label>
                     <label><input name="membershipLevel" type="radio" value="Bronze Membership">Bronze Membership</label>
                     <label><input name="membershipLevel" type="radio" value="Silver Membership">Silver Membership</label>
@@ -52,11 +52,22 @@
 
                 <fieldset>
                     <input name="currentTime" type="hidden" id="currentTimeField">
-                    <label class="colSpan2">Business Description<textarea></textarea></label>
+                    <label class="colSpan2"><h3>Business Description</h3><textarea></textarea></label>
                 </fieldset>
                     
                 <input type="submit" value="Join" class="buttonLink">
             </form>
+            <aside>
+                <h3>Membership Levels</h3>
+                <h4>NP Membership (Free)</h4>
+                <p>This membership tier is for non-profit organizations only. It registers your organization with the chamber and provides basic services.</p>
+                <h4>Bronze Membership</h4>
+                <p>Bronze membership holders will have their business registered with the chamber.</p>
+                <h4>Silver Membership</h4>
+                <p>Silver membership holders will have all the benefits of the bronze membership, as well as having their business featured on the chamber's homepage spotlight section and will receive discounts to chamber events.</p>
+                <h4>Gold Membership</h4>
+                <p>Gold membership holders have all the benefits of the silver membership plus free training with industry professionals and free event registration.</p>
+            </aside>
         </main>
         <footer>
             <img src="images/logo.svg" alt="Rexburg Chamber of Commerce Logo">

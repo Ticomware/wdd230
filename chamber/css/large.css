@@ -98,4 +98,22 @@
         max-width: 50%;
         margin: 8px auto;
     }
+
+    .contactMain{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+
+    #joinForm{
+        width: 75%;
+    }
+
+    .joinMain{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    .joinMain aside{
+        display: inherit;
+    }
 }

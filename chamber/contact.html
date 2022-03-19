@@ -30,19 +30,9 @@
             </nav>
             <p id="dateDisplay"></p>
         </header>
-        <main>
-            <h2 class="center">Contact Us</h2>
-            <section>
-                <h3>Address</h3>
-                <a href="https://bing.com/maps/default.aspx?rtp=~adr.167%20W%20Main%20St%20Rexburg,%20ID%2083440">
-                    <p>167  W. Main St. Ste. 2<br>Rexburg, ID 83440</p>
-                </a>
-                <h3>Phone</h3>
-                <a href="tel:+1-208-356-5700"><p>+1 (208) 356-5700</p></a>
-                <h3>Fax</h3>
-                <p>+1 (208) 356-5799</p>
-            </section>
-            <section>
+        <main class="contactMain">
+            <h2 class="center colSpan2">Contact Us</h2>
+            <section class="noBackground">
                 <h3>Office Hours</h3>
                 <table class="hoursTable">
                     <tr>
@@ -76,14 +66,24 @@
                   </table>
             </section>
             <section>
+                <h3>Address</h3>
+                <a href="https://bing.com/maps/default.aspx?rtp=~adr.167%20W%20Main%20St%20Rexburg,%20ID%2083440">
+                    <p>167  W. Main St. Ste. 2<br>Rexburg, ID 83440</p>
+                </a>
+                <h3>Phone</h3>
+                <a href="tel:+1-208-356-5700"><p>+1 (208) 356-5700</p></a>
+                <h3>Fax</h3>
+                <p>+1 (208) 356-5799</p>
+            </section>
+            <section class="colSpan2 noBackground">
                 <h3>Send Us a Message</h3>
-                <form method="get" action="thankyou.html" id="joinForm">
+                <form method="get" action="thankyou.html" id="contactForm">
                     <fieldset class="contactForm">
                         <label>Name* <input type="text" name="name" required></label>
                         <label>Email* <input type="email" name="email" placeholder="john.doe@example.com" required></label>
                         <label class="colSpan2">Message <textarea class="contactTextArea"></textarea></label>
                     </fieldset>
-                    <input type="submit" value="Submit Inquiry" class="buttonLink">
+                    <input type="submit" value="Submit" class="buttonLink">
                 </form>
             </section>
         </main>
