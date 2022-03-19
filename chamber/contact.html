@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Thank You! | Rexburg Chamber of Commerce</title>
+        <title>Contact Us | Rexburg Chamber of Commerce</title>
         <meta name="description" content="The local Rexburg Chamber of Commerce, serving local businesses in the Rexburg area.">
         <link rel="shortcut icon" href="images/favicon.ico">
         <link rel="stylesheet" href="../css/normalize.css">
@@ -31,7 +31,61 @@
             <p id="dateDisplay"></p>
         </header>
         <main>
-            <h2 class="center">Contact</h2>
+            <h2 class="center">Contact Us</h2>
+            <section>
+                <h3>Address</h3>
+                <a href="https://bing.com/maps/default.aspx?rtp=~adr.167%20W%20Main%20St%20Rexburg,%20ID%2083440">
+                    <p>167  W. Main St. Ste. 2<br>Rexburg, ID 83440</p>
+                </a>
+                <h3>Phone</h3>
+                <a href="tel:+1-208-356-5700"><p>+1 (208) 356-5700</p></a>
+                <h3>Fax</h3>
+                <p>+1 (208) 356-5799</p>
+            </section>
+            <section>
+                <h3>Office Hours</h3>
+                <table class="hoursTable">
+                    <tr>
+                        <th>Sunday</th>
+                        <th>Closed</th>
+                    </tr>
+                    <tr>
+                        <th>Monday</th>
+                        <th>9:00am - 5:00pm</th>
+                    </tr>
+                    <tr>
+                        <th>Tuesday</th>
+                        <th>9:00am - 5:00pm</th>
+                    </tr>
+                    <tr>
+                        <th>Wednesday</th>
+                        <th>9:00am - 5:00pm</th>
+                    </tr>
+                    <tr>
+                        <th>Thursday</th>
+                        <th>9:00am - 5:00pm</th>
+                    </tr>
+                    <tr>
+                        <th>Friday</th>
+                        <th>9:00am - 1:00pm</th>
+                    </tr>
+                    <tr>
+                        <th>Saturday</th>
+                        <th>Closed</th>
+                    </tr>
+                  </table>
+            </section>
+            <section>
+                <h3>Send Us a Message</h3>
+                <form method="get" action="thankyou.html" id="joinForm">
+                    <fieldset class="contactForm">
+                        <label>Name* <input type="text" name="name" required></label>
+                        <label>Email* <input type="email" name="email" placeholder="john.doe@example.com" required></label>
+                        <label class="colSpan2">Message <textarea class="contactTextArea"></textarea></label>
+                    </fieldset>
+                    <input type="submit" value="Submit Inquiry" class="buttonLink">
+                </form>
+            </section>
         </main>
         <footer>
             <img src="images/logo.svg" alt="Rexburg Chamber of Commerce Logo">
@@ -41,5 +95,8 @@
             <p id="copyNotice">&copy; Rexburg Chamber of Commerce | Carl J. Bialorucki | WDD 230 Project</p>
         </footer>
         <script src="js/main.js"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Serif+Pro&display=swap" rel="stylesheet">
     </body>
 </html>

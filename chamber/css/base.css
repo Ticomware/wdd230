@@ -66,6 +66,7 @@ button, .buttonLink{
     text-decoration: none;
     background-color: var(--accent-color-4);
     border: none;
+    font-weight: bold;
 }
 
 h1, h2, h3, h4, h5, h6{
@@ -73,7 +74,7 @@ h1, h2, h3, h4, h5, h6{
 }
 
 header h1, .org-type{ 
-    font-family: "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
+    font-family: "Source Serif Pro", "Baskerville", "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif;
     font-weight: bold;
     text-transform: uppercase;
 }
@@ -95,16 +96,17 @@ section{
 }
 
 .heroSection{
-    background-image: url("../images/hero-img.jpg");
+    background-image: url("../images/hero-alt.jpg");
     background-size: cover;
     background-position: center;
+    display: grid;
 }
 
 .heroSection button, .heroSection .buttonLink{
     background-color: var(--accent-color-4);
     border: none;
     font-weight: bold;
-    margin: 16px 0px;
+    margin: auto;
 }
 
 .joinSection{
@@ -353,4 +355,30 @@ h2.center{
 
 .discoverMain h2{
     padding-bottom: 0px;
+}
+
+.hoursTable{
+    margin: auto;
+    padding: 8px;
+}
+
+.hoursTable tbody tr th{
+    padding: 2px 8px;
+}
+
+.hoursTable tbody tr th:nth-child(1){
+    text-align: end;
+}
+
+.hoursTable tbody tr th:nth-child(2){
+    text-align: start;
+}
+
+.contactForm{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.contactTextArea{
+    width: 100%;
 }
