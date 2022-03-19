@@ -58,6 +58,28 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 
+    #spotlightSection{
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        vertical-align: middle;
+    }
+
+    #spotlightSection section{
+        display: grid;
+        padding: 0px;
+        text-align: center;
+        vertical-align: middle;
+    }
+
+    #spotlightSection section:nth-child(3){
+        display: grid;
+    }
+
+    #spotlightSection section img{
+        margin: auto;
+        padding: 16px;
+    }
+
     #spotlightSection section a{
         font-size: medium;
         padding: 0px;
@@ -73,7 +95,7 @@
     }
 
     .discoverMain section{
-        width: 50%;
+        max-width: 50%;
         margin: 8px auto;
     }
 }

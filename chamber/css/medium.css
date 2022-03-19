@@ -60,6 +60,9 @@
     #spotlightSection{
         grid-row: 3 / 3;
         grid-column: 1 / 3;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        vertical-align: middle;
     }
 
     .joinSection{
@@ -114,7 +117,7 @@
     }
 
     #spotlightSection section:nth-child(3){
-        display: inherit;
+        display: block;
     }
 
     .discoverMain section img{
