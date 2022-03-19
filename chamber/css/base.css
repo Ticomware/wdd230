@@ -76,8 +76,13 @@ button, .buttonLink{
     font-weight: bold;
 }
 
-h1, h2, h3, h4, h5, h6{
+h1, h2, h3, h4, h5, h6, .joinHeader3{
     text-transform: uppercase;
+    font-weight: bold;
+}
+
+.joinHeader3{
+    font-size: 1.17em;
 }
 
 header h1, .org-type{ 
