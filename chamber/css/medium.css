@@ -116,4 +116,19 @@
     #spotlightSection section:nth-child(3){
         display: inherit;
     }
+
+    .discoverMain section img{
+        height: 250px;
+        transition: all .3s ease-in-out; 
+    }
+
+    .discoverMain section img:hover{
+        transform: scale(1.2); 
+        margin: 24px;
+    }
+
+    .discoverMain section{
+        max-width: 75%;
+        margin: 8px auto;
+    }
 }

@@ -71,4 +71,9 @@
     #spotlightSection section a p{
         display: inherit;
     }
+
+    .discoverMain section{
+        width: 50%;
+        margin: 8px auto;
+    }
 }

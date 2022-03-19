@@ -337,3 +337,20 @@ h2.center{
 #spotlightSection section:nth-child(3){
     display: none;
 }
+
+.discoverMain section img{
+    max-height: 200px;
+    border-radius: var(--border-radius-amount);
+}
+
+.discoverMain section{
+    border-radius: var(--border-radius-amount);
+}
+
+.discoverMain section h2, .discoverMain section p{
+    margin: 8px;
+}
+
+.discoverMain h2{
+    padding-bottom: 0px;
+}
