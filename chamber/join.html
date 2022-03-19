@@ -34,6 +34,7 @@
             <h2 class="center colSpan2">Join</h2>
             <form method="get" action="thankyou.html" id="joinForm">
                 <fieldset>
+                    <legend><h3>Personal Information</h3></legend>
                     <label>First Name* <input type="text" name="fname" required></label>
                     <label>Last Name* <input type="text" name="lname" required></label>
                     <label>Business Position <input type="text" name="positionTitle" pattern="^[a-zA-Z\-?\s?]{7,}$"></label>
@@ -51,8 +52,9 @@
                 </fieldset>
 
                 <fieldset>
+                    <legend><h3>Business Description</h3></legend>
                     <input name="currentTime" type="hidden" id="currentTimeField">
-                    <label class="colSpan2"><span class="joinHeader3">Business Description</span><textarea></textarea></label>
+                    <label class="colSpan2"><textarea></textarea></label>
                 </fieldset>
                     
                 <input type="submit" value="Join" class="buttonLink">
