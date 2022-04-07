@@ -1,0 +1,1 @@
+document.querySelector('#currentTimeField').setAttribute('value', new Date().toString())

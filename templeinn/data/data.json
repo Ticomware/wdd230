@@ -1,0 +1,44 @@
+{
+    "temples": [
+        {
+            "title": "Rexburg Idaho Temple",
+            "picture": "https://assets.ldscdn.org/29/8a/298a8b01fbc736923e83e7c748e60abcad8511c9/rexburg_idaho_temple.jpeg",
+            "address": "750 S 2nd E, Rexburg ID 83440",
+            "phone": "208-656-0880",
+            "website": "https://www.churchofjesuschrist.org/temples/details/rexburg-idaho-temple",
+            "email": "rexburgtemple@churchofjesuschrist.org",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "description": "WIKIPEDIA. Announced in late 2003, the temple was dedicated on February 10, 2008 and was the first temple dedicated by Thomas S. Monson as the church's new president. The Rexburg Idaho Temple was the third temple in Idaho. (Later in 2008, a fourth Idaho temple was dedicated in Twin Falls.) The temple sits south of the Brigham Young University-Idaho (BYU-Idaho) campus on the south side of Rexburg. Prior to its completion, BYU-Idaho had been the only  Church-owned university without a temple adjacent to its campus."
+        },
+        {
+            "title": "Salt Lake Temple",
+            "picture": "https://churchofjesuschristtemples.org/assets/img/temples/salt-lake-temple/salt-lake-temple-15669-main.jpg",
+            "address": "50 West North Temple Street, Salt Lake City, Utah  84150",
+            "phone": "801-240-2640",
+            "website": "https://churchofjesuschristtemples.org/salt-lake-temple/",
+            "email": "saltlaketemple@churchofjesuschrist.org",
+            "services": "Clothing rental available, No cafeteria food served, No patron housing available, Distribution center nearby",
+            "description": "WIKIPEDIA. The Salt Lake Temple is a temple of The Church of Jesus Christ of Latter-day Saints on Temple Square in Salt Lake City, Utah, United States. At 253,015 square feet (23,505.9 m2), it is the largest Latter-day Saint temple by floor area. Dedicated in 1893, it is the sixth temple completed by the church, requiring 40 years to complete, and the fourth temple built since the 'Mormon exodus' from Nauvoo, Illinois, in 1846."
+        },
+        {
+            "title": "Nauvoo Illinois Temple",
+            "picture": "https://assets.ldscdn.org/e6/49/e649267e9549f7693e589079317d987069b799da/nauvoo_temple_lds.jpg",
+            "address": "50 N Wells St, Nauvoo IL 62354",
+            "phone": "217-453-6252",
+            "website": "https://www.churchofjesuschrist.org/temples/details/nauvoo-illinois-temple",
+            "email": "nauvootemple@churchofjesuschrist.org",
+            "services": "Clothing rental available, No cafeteria available, No patron housing available, No distribution center nearby",
+            "description": "WIKIPEDIA. The Nauvoo Temple was the second temple constructed by the Church of Jesus Christ of Latter Day Saints. The church's first temple was completed in Kirtland, Ohio, United States, in 1836. When the main body of the church was forced out of Nauvoo, Illinois, in the winter of 1846, the church attempted to sell the building, finally succeeding in 1848. The building was damaged by fire and a tornado before being demolished. In 1937, The Church of Jesus Christ of Latter-day Saints reacquired the lot on which the original temple had stood. In 2000, the church began to build a temple on the original site with an exterior that is a replica of the first temple, but whose interior is laid out like a modern Latter-day Saint temple. On June 27, 2002, a date that coincided with the 158th anniversary of the death of Joseph and Hyrum Smith, the temple was dedicated by the church as the Nauvoo Illinois Temple."
+        },
+        {
+            "title": "Sacramento California Temple",
+            "picture": "https://assets.ldscdn.org/22/e4/22e4430b9d30b0ddf01189d7ff4e7e303cd91229/sacramento_temple_lds.jpeg",
+            "address": "2110 California Cir., Rancho Cordova CA 95742",
+            "phone": "916-357-5870",
+            "website": "https://www.churchofjesuschrist.org/temples/details/sacramento-california-temple",
+            "email": "sacramentotemple@churchofjesuschrist.org",
+            "services": "No clothing rental available, No cafeteria available, No patron housing available, Distribution center nearby",
+            "description": "WIKIPEDIA. The Sacramento California Temple is the 123rd operating temple of The Church of Jesus Christ of Latter-day Saints . The temple was the seventh built by the church in California, more than any state except Utah. The Sacramento California Temple serves a membership which totals approximately 80,000 in the area."
+        }
+    ]
+}
